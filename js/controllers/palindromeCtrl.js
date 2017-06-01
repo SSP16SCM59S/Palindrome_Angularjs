@@ -11,4 +11,8 @@ angular.module("PalindromeCtrlModule", [])
 
 }])
 
+    .controller("calculationCtrl",["$scope",function ($scope) {
 
+        document.getElementById("workspace").classList.add('active');
+        document.getElementById("home").classList.remove('active');
+    }]);

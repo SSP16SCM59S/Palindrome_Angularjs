@@ -43,3 +43,64 @@
     margin-left: 160px;
 }
 
+.work{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+input[type="text"]{
+     width: 450px;
+     height: 40px;
+     border-radius: 6px;
+     border: 2px solid #fff;
+     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+     color: black;
+     position: absolute;
+     margin-left: -200px;
+ }
+
+input[type="number"]{
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    color: black;
+}
+
+#min{
+    position: absolute;
+    margin-left: -250px;
+}
+
+#search{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -100px;
+    width: 250px;
+    height: 40px;
+}
+
+#max{
+    position: absolute;
+    margin-left: 50px;
+
+}
+
+#submit{
+    width: 250px;
+    height: 40px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 20px;
+
+}
+
+#result{
+    margin-top: 50px;
+}
+
+#numerical,#res{
+    margin-top: 50px;
+}
