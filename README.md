@@ -5,3 +5,4 @@ If using Webstorm open the application using the open command and run the index 
 If using any other server, place the entire application in the appropriate directory, Ex: htdocs for xampp. 
 Run the server and you can access the application using the url: localhost/Palindrome
 Tested on Xampp using chrome and Firefox.
+Also works great on ie9+..
